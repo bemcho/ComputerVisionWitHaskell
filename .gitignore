@@ -2,6 +2,7 @@
 *.class
 *.o
 *.lkshw
+*.iml
 
 dist/
 gitignore/
