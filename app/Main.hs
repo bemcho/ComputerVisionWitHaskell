@@ -1,6 +1,9 @@
 module Main where
 
-import Lib
+import           Control.Monad
+import           Graphics.UI.Gtk hiding (Action, backspace)
+import           UI.Utils
 
 main :: IO ()
-main = someFunc
+main = runApp
+  

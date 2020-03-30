@@ -27,7 +27,7 @@ source-repository head
   location: https://github.com/bemcho/CVWithHaskell
 
 library
-  exposed-modules:    Lib
+  exposed-modules:    UI.Utils
   other-modules:      Paths_CVWithHaskell
   hs-source-dirs:     src
   build-depends:
