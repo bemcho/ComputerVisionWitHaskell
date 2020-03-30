@@ -1,6 +1,6 @@
 # CVWithHaskell
 
-UI tool for sending messages to Kafka topics written in Haskell
+UI tool for image processing written in Haskell
 -- Installation stack & cabal
 
     https://docs.haskellstack.org/en/stable/README/
