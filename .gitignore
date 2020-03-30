@@ -1,0 +1,12 @@
+*.Rout
+*.class
+*.o
+*.lkshw
+
+dist/
+gitignore/
+dist-newstyle/
+.stack-work/
+.idea/
+out/
+/stack.yaml.lock

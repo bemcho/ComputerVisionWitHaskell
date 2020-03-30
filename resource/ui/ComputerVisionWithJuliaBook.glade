@@ -1,0 +1,842 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Generated with glade 3.22.1 -->
+<interface>
+  <requires lib="gtk+" version="3.20"/>
+  <object class="GtkAdjustment" id="crop_bottom_right_x">
+    <property name="lower">1</property>
+    <property name="upper">400</property>
+    <property name="value">1</property>
+    <property name="step_increment">1</property>
+    <property name="page_increment">10</property>
+  </object>
+  <object class="GtkAdjustment" id="crop_bottom_right_y">
+    <property name="lower">1</property>
+    <property name="upper">400</property>
+    <property name="value">1</property>
+    <property name="step_increment">1</property>
+    <property name="page_increment">10</property>
+  </object>
+  <object class="GtkAdjustment" id="crop_top_left_x">
+    <property name="lower">1</property>
+    <property name="upper">400</property>
+    <property name="value">1</property>
+    <property name="step_increment">1</property>
+    <property name="page_increment">10</property>
+  </object>
+  <object class="GtkAdjustment" id="crop_top_left_y">
+    <property name="lower">1</property>
+    <property name="upper">400</property>
+    <property name="value">1</property>
+    <property name="step_increment">1</property>
+    <property name="page_increment">10</property>
+  </object>
+  <object class="GtkWindow" id="main_window_toolbar">
+    <property name="visible">True</property>
+    <property name="can_focus">True</property>
+    <property name="has_focus">True</property>
+    <property name="can_default">True</property>
+    <property name="has_default">True</property>
+    <property name="receives_default">True</property>
+    <property name="title" translatable="yes">Toolbar</property>
+    <property name="resizable">False</property>
+    <property name="default_width">50</property>
+    <property name="default_height">800</property>
+    <property name="icon_name">applications-accessories</property>
+    <property name="urgency_hint">True</property>
+    <property name="gravity">north</property>
+    <property name="has_resize_grip">True</property>
+    <child type="titlebar">
+      <placeholder/>
+    </child>
+    <child>
+      <object class="GtkBox" id="main_toolbar_box">
+        <property name="visible">True</property>
+        <property name="can_focus">False</property>
+        <property name="can_default">True</property>
+        <property name="has_default">True</property>
+        <property name="receives_default">True</property>
+        <property name="halign">center</property>
+        <property name="valign">start</property>
+        <property name="margin_left">3</property>
+        <property name="margin_right">3</property>
+        <property name="margin_top">3</property>
+        <property name="margin_bottom">3</property>
+        <property name="orientation">vertical</property>
+        <property name="spacing">3</property>
+        <property name="baseline_position">top</property>
+        <child>
+          <object class="GtkButton" id="open_image_btn">
+            <property name="label">gtk-open</property>
+            <property name="name">open_image_btn</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="can_default">True</property>
+            <property name="has_default">True</property>
+            <property name="receives_default">True</property>
+            <property name="use_underline">True</property>
+            <property name="use_stock">True</property>
+            <child internal-child="accessible">
+              <object class="AtkObject" id="open_image_btn-atkobject">
+                <property name="AtkObject::accessible-role" translatable="yes">file-chooser</property>
+              </object>
+            </child>
+          </object>
+          <packing>
+            <property name="expand">False</property>
+            <property name="fill">False</property>
+            <property name="position">0</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton" id="save_image_btn">
+            <property name="label">gtk-save-as</property>
+            <property name="name">save_image_btn</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="can_default">True</property>
+            <property name="has_default">True</property>
+            <property name="receives_default">True</property>
+            <property name="hexpand">True</property>
+            <property name="use_underline">True</property>
+            <property name="use_stock">True</property>
+            <child internal-child="accessible">
+              <object class="AtkObject" id="save_image_btn-atkobject">
+                <property name="AtkObject::accessible-role" translatable="yes">file-chooser</property>
+              </object>
+            </child>
+          </object>
+          <packing>
+            <property name="expand">False</property>
+            <property name="fill">False</property>
+            <property name="position">1</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkFrame" id="image_dimensions__frame">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="can_default">True</property>
+            <property name="has_default">True</property>
+            <property name="receives_default">True</property>
+            <property name="label_xalign">0</property>
+            <child>
+              <object class="GtkAlignment">
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <property name="can_default">True</property>
+                <property name="has_default">True</property>
+                <property name="receives_default">True</property>
+                <property name="left_padding">12</property>
+                <child>
+                  <object class="GtkButtonBox" id="image_dimensions_container">
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <property name="can_default">True</property>
+                    <property name="has_default">True</property>
+                    <property name="receives_default">True</property>
+                    <property name="orientation">vertical</property>
+                    <property name="spacing">2</property>
+                    <property name="homogeneous">True</property>
+                    <property name="layout_style">start</property>
+                    <child>
+                      <object class="GtkButton" id="image_dimensions_resize_btn">
+                        <property name="label" translatable="yes">Resize</property>
+                        <property name="visible">True</property>
+                        <property name="can_focus">True</property>
+                        <property name="can_default">True</property>
+                        <property name="has_default">True</property>
+                        <property name="receives_default">True</property>
+                      </object>
+                      <packing>
+                        <property name="expand">True</property>
+                        <property name="fill">True</property>
+                        <property name="position">0</property>
+                      </packing>
+                    </child>
+                    <child>
+                      <object class="GtkButton" id="image_dimensions_crop_btn">
+                        <property name="label" translatable="yes">Crop</property>
+                        <property name="visible">True</property>
+                        <property name="can_focus">True</property>
+                        <property name="can_default">True</property>
+                        <property name="has_default">True</property>
+                        <property name="receives_default">True</property>
+                      </object>
+                      <packing>
+                        <property name="expand">True</property>
+                        <property name="fill">True</property>
+                        <property name="position">1</property>
+                      </packing>
+                    </child>
+                    <child>
+                      <object class="GtkButton" id="image_dimensions_scale_btn">
+                        <property name="label" translatable="yes">Scale</property>
+                        <property name="visible">True</property>
+                        <property name="can_focus">True</property>
+                        <property name="can_default">True</property>
+                        <property name="has_default">True</property>
+                        <property name="receives_default">True</property>
+                      </object>
+                      <packing>
+                        <property name="expand">True</property>
+                        <property name="fill">True</property>
+                        <property name="position">2</property>
+                      </packing>
+                    </child>
+                  </object>
+                </child>
+              </object>
+            </child>
+            <child type="label">
+              <object class="GtkLabel">
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <property name="can_default">True</property>
+                <property name="has_default">True</property>
+                <property name="receives_default">True</property>
+                <property name="margin_left">5</property>
+                <property name="label" translatable="yes">Dimensions</property>
+                <attributes>
+                  <attribute name="font-desc" value="Ubuntu Mono Bold 10"/>
+                </attributes>
+              </object>
+            </child>
+          </object>
+          <packing>
+            <property name="expand">False</property>
+            <property name="fill">True</property>
+            <property name="position">2</property>
+          </packing>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+      </object>
+    </child>
+  </object>
+  <object class="GtkWindow" id="edit_crop_window">
+    <property name="can_focus">False</property>
+    <property name="can_default">True</property>
+    <property name="has_default">True</property>
+    <property name="receives_default">True</property>
+    <property name="title" translatable="yes">Change Width,Height Scale</property>
+    <property name="resizable">False</property>
+    <property name="modal">True</property>
+    <property name="window_position">center-on-parent</property>
+    <property name="default_width">500</property>
+    <property name="default_height">500</property>
+    <property name="destroy_with_parent">True</property>
+    <property name="type_hint">toolbar</property>
+    <property name="skip_taskbar_hint">True</property>
+    <property name="urgency_hint">True</property>
+    <property name="deletable">False</property>
+    <property name="gravity">east</property>
+    <property name="transient_for">main_window_toolbar</property>
+    <property name="attached_to">image_dimensions__frame</property>
+    <child>
+      <placeholder/>
+    </child>
+    <child>
+      <object class="GtkBox">
+        <property name="visible">True</property>
+        <property name="can_focus">False</property>
+        <property name="can_default">True</property>
+        <property name="has_default">True</property>
+        <property name="hexpand">True</property>
+        <property name="vexpand">True</property>
+        <property name="orientation">vertical</property>
+        <child>
+          <object class="GtkGrid">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="halign">baseline</property>
+            <property name="valign">baseline</property>
+            <child>
+              <object class="GtkScale">
+                <property name="visible">True</property>
+                <property name="can_focus">True</property>
+                <property name="halign">start</property>
+                <property name="vexpand">True</property>
+                <property name="orientation">vertical</property>
+                <property name="adjustment">crop_top_left_y</property>
+                <property name="restrict_to_fill_level">False</property>
+                <property name="fill_level">500</property>
+                <property name="round_digits">1</property>
+                <property name="digits">0</property>
+              </object>
+              <packing>
+                <property name="left_attach">0</property>
+                <property name="top_attach">0</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkScale">
+                <property name="visible">True</property>
+                <property name="can_focus">True</property>
+                <property name="valign">start</property>
+                <property name="hexpand">True</property>
+                <property name="adjustment">crop_top_left_x</property>
+                <property name="restrict_to_fill_level">False</property>
+                <property name="fill_level">500</property>
+                <property name="round_digits">1</property>
+                <property name="digits">0</property>
+                <property name="value_pos">left</property>
+              </object>
+              <packing>
+                <property name="left_attach">1</property>
+                <property name="top_attach">0</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkScale">
+                <property name="visible">True</property>
+                <property name="can_focus">True</property>
+                <property name="valign">end</property>
+                <property name="hexpand">True</property>
+                <property name="adjustment">crop_bottom_right_x</property>
+                <property name="restrict_to_fill_level">False</property>
+                <property name="fill_level">500</property>
+                <property name="round_digits">0</property>
+                <property name="digits">0</property>
+                <property name="value_pos">right</property>
+              </object>
+              <packing>
+                <property name="left_attach">1</property>
+                <property name="top_attach">1</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkScale">
+                <property name="visible">True</property>
+                <property name="can_focus">True</property>
+                <property name="halign">end</property>
+                <property name="vexpand">True</property>
+                <property name="orientation">vertical</property>
+                <property name="adjustment">crop_bottom_right_y</property>
+                <property name="restrict_to_fill_level">False</property>
+                <property name="fill_level">500</property>
+                <property name="round_digits">0</property>
+                <property name="digits">0</property>
+              </object>
+              <packing>
+                <property name="left_attach">0</property>
+                <property name="top_attach">1</property>
+              </packing>
+            </child>
+          </object>
+          <packing>
+            <property name="expand">True</property>
+            <property name="fill">True</property>
+            <property name="position">0</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkBox">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="halign">center</property>
+            <property name="valign">end</property>
+            <property name="margin_bottom">7</property>
+            <child>
+              <object class="GtkButton" id="crop_window_cancel_btn">
+                <property name="label" translatable="yes">Cancel</property>
+                <property name="visible">True</property>
+                <property name="can_focus">True</property>
+                <property name="receives_default">True</property>
+              </object>
+              <packing>
+                <property name="expand">False</property>
+                <property name="fill">True</property>
+                <property name="position">0</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkButton" id="crop_window_apply_btn">
+                <property name="label" translatable="yes">Apply</property>
+                <property name="visible">True</property>
+                <property name="can_focus">True</property>
+                <property name="receives_default">True</property>
+              </object>
+              <packing>
+                <property name="expand">False</property>
+                <property name="fill">True</property>
+                <property name="position">1</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkButton" id="crop_window_preview_btn">
+                <property name="label" translatable="yes">Preview</property>
+                <property name="visible">True</property>
+                <property name="can_focus">True</property>
+                <property name="receives_default">True</property>
+              </object>
+              <packing>
+                <property name="expand">False</property>
+                <property name="fill">True</property>
+                <property name="position">2</property>
+              </packing>
+            </child>
+          </object>
+          <packing>
+            <property name="expand">False</property>
+            <property name="fill">True</property>
+            <property name="position">4</property>
+          </packing>
+        </child>
+      </object>
+    </child>
+  </object>
+  <object class="GtkWindow" id="main_window_draw">
+    <property name="visible">True</property>
+    <property name="can_focus">True</property>
+    <property name="can_default">True</property>
+    <property name="has_default">True</property>
+    <property name="receives_default">True</property>
+    <property name="title" translatable="yes">ComputerVisionWithJuliaBook</property>
+    <property name="resizable">False</property>
+    <property name="window_position">center-always</property>
+    <property name="destroy_with_parent">True</property>
+    <property name="icon_name">applications-accessories</property>
+    <property name="type_hint">toolbar</property>
+    <property name="skip_taskbar_hint">True</property>
+    <property name="deletable">False</property>
+    <property name="gravity">center</property>
+    <property name="transient_for">main_window_toolbar</property>
+    <property name="attached_to">main_window_toolbar</property>
+    <child>
+      <placeholder/>
+    </child>
+    <child>
+      <placeholder/>
+    </child>
+  </object>
+  <object class="GtkAdjustment" id="slider_height_adjustment">
+    <property name="lower">1</property>
+    <property name="upper">5000</property>
+    <property name="value">800</property>
+    <property name="step_increment">1</property>
+    <property name="page_increment">10</property>
+  </object>
+  <object class="GtkAdjustment" id="slider_scale_adjustment">
+    <property name="lower">1</property>
+    <property name="upper">500</property>
+    <property name="step_increment">1</property>
+    <property name="page_increment">10</property>
+  </object>
+  <object class="GtkAdjustment" id="slider_width_adjustment">
+    <property name="lower">1</property>
+    <property name="upper">5000</property>
+    <property name="value">800</property>
+    <property name="step_increment">1</property>
+    <property name="page_increment">10</property>
+  </object>
+  <object class="GtkWindow" id="edit_resize_window">
+    <property name="can_focus">True</property>
+    <property name="has_focus">True</property>
+    <property name="can_default">True</property>
+    <property name="has_default">True</property>
+    <property name="receives_default">True</property>
+    <property name="title" translatable="yes">Change Width,Height Scale</property>
+    <property name="resizable">False</property>
+    <property name="modal">True</property>
+    <property name="window_position">center-on-parent</property>
+    <property name="default_width">400</property>
+    <property name="default_height">200</property>
+    <property name="destroy_with_parent">True</property>
+    <property name="type_hint">toolbar</property>
+    <property name="skip_taskbar_hint">True</property>
+    <property name="urgency_hint">True</property>
+    <property name="deletable">False</property>
+    <property name="gravity">east</property>
+    <property name="transient_for">main_window_toolbar</property>
+    <property name="attached_to">image_dimensions__frame</property>
+    <child>
+      <placeholder/>
+    </child>
+    <child>
+      <object class="GtkBox">
+        <property name="visible">True</property>
+        <property name="can_focus">False</property>
+        <property name="is_focus">True</property>
+        <property name="can_default">True</property>
+        <property name="has_default">True</property>
+        <property name="orientation">vertical</property>
+        <property name="homogeneous">True</property>
+        <child>
+          <object class="GtkFrame">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="label_xalign">0</property>
+            <property name="shadow_type">none</property>
+            <child>
+              <object class="GtkAlignment">
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <property name="left_padding">12</property>
+                <child>
+                  <object class="GtkScale" id="slider_width">
+                    <property name="visible">True</property>
+                    <property name="can_focus">True</property>
+                    <property name="is_focus">True</property>
+                    <property name="can_default">True</property>
+                    <property name="has_default">True</property>
+                    <property name="adjustment">slider_width_adjustment</property>
+                    <property name="show_fill_level">True</property>
+                    <property name="fill_level">5000</property>
+                    <property name="round_digits">1</property>
+                    <property name="digits">0</property>
+                    <property name="value_pos">right</property>
+                  </object>
+                </child>
+              </object>
+            </child>
+            <child type="label">
+              <object class="GtkLabel">
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <property name="margin_left">6</property>
+                <property name="label" translatable="yes">Width</property>
+              </object>
+            </child>
+          </object>
+          <packing>
+            <property name="expand">False</property>
+            <property name="fill">True</property>
+            <property name="position">0</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkFrame">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="label_xalign">0</property>
+            <property name="shadow_type">none</property>
+            <child>
+              <object class="GtkAlignment">
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <property name="left_padding">12</property>
+                <child>
+                  <object class="GtkScale" id="slider_height">
+                    <property name="visible">True</property>
+                    <property name="can_focus">True</property>
+                    <property name="adjustment">slider_height_adjustment</property>
+                    <property name="restrict_to_fill_level">False</property>
+                    <property name="fill_level">5000</property>
+                    <property name="round_digits">1</property>
+                    <property name="digits">0</property>
+                    <property name="value_pos">right</property>
+                  </object>
+                </child>
+              </object>
+            </child>
+            <child type="label">
+              <object class="GtkLabel">
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <property name="margin_left">5</property>
+                <property name="label" translatable="yes">Height</property>
+              </object>
+            </child>
+          </object>
+          <packing>
+            <property name="expand">False</property>
+            <property name="fill">True</property>
+            <property name="position">1</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkBox">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="halign">center</property>
+            <property name="valign">end</property>
+            <child>
+              <object class="GtkButton" id="resize_window_cancel_btn">
+                <property name="label" translatable="yes">Cancel</property>
+                <property name="visible">True</property>
+                <property name="can_focus">True</property>
+                <property name="receives_default">True</property>
+              </object>
+              <packing>
+                <property name="expand">False</property>
+                <property name="fill">True</property>
+                <property name="position">0</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkButton" id="resize_window_apply_btn">
+                <property name="label" translatable="yes">Apply</property>
+                <property name="visible">True</property>
+                <property name="can_focus">True</property>
+                <property name="receives_default">True</property>
+              </object>
+              <packing>
+                <property name="expand">False</property>
+                <property name="fill">True</property>
+                <property name="position">1</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkButton" id="resize_window_preview_btn">
+                <property name="label" translatable="yes">Preview</property>
+                <property name="visible">True</property>
+                <property name="can_focus">True</property>
+                <property name="receives_default">True</property>
+              </object>
+              <packing>
+                <property name="expand">False</property>
+                <property name="fill">True</property>
+                <property name="position">2</property>
+              </packing>
+            </child>
+          </object>
+          <packing>
+            <property name="expand">False</property>
+            <property name="fill">False</property>
+            <property name="position">4</property>
+          </packing>
+        </child>
+      </object>
+    </child>
+  </object>
+  <object class="GtkWindow" id="edit_scale_window">
+    <property name="can_focus">False</property>
+    <property name="can_default">True</property>
+    <property name="has_default">True</property>
+    <property name="receives_default">True</property>
+    <property name="title" translatable="yes">Change Width,Height Scale</property>
+    <property name="resizable">False</property>
+    <property name="modal">True</property>
+    <property name="window_position">center-on-parent</property>
+    <property name="default_width">400</property>
+    <property name="default_height">200</property>
+    <property name="destroy_with_parent">True</property>
+    <property name="type_hint">toolbar</property>
+    <property name="skip_taskbar_hint">True</property>
+    <property name="urgency_hint">True</property>
+    <property name="deletable">False</property>
+    <property name="gravity">east</property>
+    <property name="transient_for">main_window_toolbar</property>
+    <property name="attached_to">image_dimensions__frame</property>
+    <child>
+      <placeholder/>
+    </child>
+    <child>
+      <object class="GtkBox">
+        <property name="visible">True</property>
+        <property name="can_focus">False</property>
+        <property name="can_default">True</property>
+        <property name="has_default">True</property>
+        <property name="orientation">vertical</property>
+        <property name="homogeneous">True</property>
+        <child>
+          <object class="GtkFrame">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="label_xalign">0</property>
+            <property name="shadow_type">none</property>
+            <child>
+              <object class="GtkAlignment">
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <property name="left_padding">12</property>
+                <child>
+                  <object class="GtkScale" id="slider_width2">
+                    <property name="visible">True</property>
+                    <property name="can_focus">True</property>
+                    <property name="can_default">True</property>
+                    <property name="has_default">True</property>
+                    <property name="adjustment">slider_width_adjustment</property>
+                    <property name="show_fill_level">True</property>
+                    <property name="fill_level">5000</property>
+                    <property name="round_digits">0</property>
+                    <property name="digits">0</property>
+                    <property name="value_pos">right</property>
+                  </object>
+                </child>
+              </object>
+            </child>
+            <child type="label">
+              <object class="GtkLabel">
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <property name="label" translatable="yes">Width</property>
+              </object>
+            </child>
+          </object>
+          <packing>
+            <property name="expand">False</property>
+            <property name="fill">True</property>
+            <property name="position">0</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkFrame">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="label_xalign">0</property>
+            <property name="shadow_type">none</property>
+            <child>
+              <object class="GtkAlignment">
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <property name="left_padding">12</property>
+                <child>
+                  <object class="GtkScale" id="slider_height2">
+                    <property name="visible">True</property>
+                    <property name="can_focus">True</property>
+                    <property name="adjustment">slider_height_adjustment</property>
+                    <property name="restrict_to_fill_level">False</property>
+                    <property name="fill_level">5000</property>
+                    <property name="round_digits">0</property>
+                    <property name="digits">0</property>
+                    <property name="value_pos">right</property>
+                  </object>
+                </child>
+              </object>
+            </child>
+            <child type="label">
+              <object class="GtkLabel">
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <property name="label" translatable="yes">Height</property>
+              </object>
+            </child>
+          </object>
+          <packing>
+            <property name="expand">False</property>
+            <property name="fill">True</property>
+            <property name="position">1</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkFrame">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="label_xalign">0</property>
+            <property name="shadow_type">none</property>
+            <child>
+              <object class="GtkAlignment">
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <property name="left_padding">12</property>
+                <child>
+                  <object class="GtkScale" id="slider_scale2">
+                    <property name="visible">True</property>
+                    <property name="can_focus">True</property>
+                    <property name="can_default">True</property>
+                    <property name="has_default">True</property>
+                    <property name="receives_default">True</property>
+                    <property name="adjustment">slider_scale_adjustment</property>
+                    <property name="show_fill_level">True</property>
+                    <property name="fill_level">500</property>
+                    <property name="round_digits">0</property>
+                    <property name="digits">0</property>
+                    <property name="value_pos">right</property>
+                  </object>
+                </child>
+              </object>
+            </child>
+            <child type="label">
+              <object class="GtkLabel">
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <property name="label" translatable="yes">Scale %</property>
+              </object>
+            </child>
+          </object>
+          <packing>
+            <property name="expand">False</property>
+            <property name="fill">True</property>
+            <property name="position">2</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkBox">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="halign">center</property>
+            <child>
+              <object class="GtkButton" id="scale_window_cancel_btn">
+                <property name="label" translatable="yes">Cancel</property>
+                <property name="visible">True</property>
+                <property name="can_focus">True</property>
+                <property name="receives_default">True</property>
+              </object>
+              <packing>
+                <property name="expand">False</property>
+                <property name="fill">True</property>
+                <property name="position">0</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkButton" id="scale_window_apply_btn">
+                <property name="label" translatable="yes">Apply</property>
+                <property name="visible">True</property>
+                <property name="can_focus">True</property>
+                <property name="receives_default">True</property>
+              </object>
+              <packing>
+                <property name="expand">False</property>
+                <property name="fill">True</property>
+                <property name="position">1</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkButton" id="scale_window_preview_btn">
+                <property name="label" translatable="yes">Preview</property>
+                <property name="visible">True</property>
+                <property name="can_focus">True</property>
+                <property name="receives_default">True</property>
+              </object>
+              <packing>
+                <property name="expand">False</property>
+                <property name="fill">True</property>
+                <property name="position">2</property>
+              </packing>
+            </child>
+          </object>
+          <packing>
+            <property name="expand">False</property>
+            <property name="fill">False</property>
+            <property name="position">4</property>
+          </packing>
+        </child>
+      </object>
+    </child>
+  </object>
+</interface>
