@@ -2,7 +2,109 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="692f20e2-1988-4956-901b-ca1ff310063c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Chart_1_9_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Chart_diagrams_1_9_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/GLURaw_2_0_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/GLUtil_0_10_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/JuicyPixels_3_3_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/ObjectName_1_1_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/OpenGLRaw_3_3_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/OpenGL_3_0_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/QuickCheck_2_13_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/SVGFonts_1_7_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/StateVar_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/active_0_2_0_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/adjunctions_4_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/ansi_terminal_0_10_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/ansi_wl_pprint_0_6_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/async_2_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/attoparsec_0_13_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/attoparsec_binary_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/base_orphans_0_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/bifunctors_5_5_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/binary_orphans_1_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/blaze_builder_0_4_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/blaze_markup_0_8_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/blaze_svg_0_3_6_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/bmp_1_2_6_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/bytes_0_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/call_stack_0_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/cereal_0_5_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/cereal_vector_0_2_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/colour_2_3_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/comonad_5_0_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/constraints_0_11_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/contravariant_1_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/data_default_class_0_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/diagrams_core_1_4_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/diagrams_lib_1_4_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/diagrams_postscript_1_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/diagrams_solve_0_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/diagrams_svg_1_4_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/distributive_0_6_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/dual_tree_0_2_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/enclosed_exceptions_1_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/fingertree_0_1_4_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/fixed_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/free_5_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/fsnotify_0_3_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/groups_0_4_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/half_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/hashable_1_3_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/hinotify_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/hip_1_5_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/hpp_0_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/integer_logarithms_1_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/intervals_0_9_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/invariant_0_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/kan_extensions_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/lens_4_18_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/lifted_async_0_10_0_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/lifted_base_0_2_3_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/linear_1_20_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/monad_control_1_0_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/monoid_extras_0_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/netpbm_1_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/newtype_generics_0_5_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/old_locale_1_0_0_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/operational_0_2_3_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/optparse_applicative_0_15_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/parallel_3_2_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/parsec_3_1_14_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/primitive_0_7_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/profunctors_5_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/random_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/reflection_2_1_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/repa_3_4_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/scientific_0_3_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/semigroupoids_5_3_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/semigroups_0_19_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/shelly_1_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/split_0_2_3_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/splitmix_0_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/statestack_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/storable_record_0_0_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/svg_builder_0_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/tagged_0_8_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/temporary_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/th_abstraction_0_3_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/transformers_base_0_4_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/type_equality_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/unix_compat_0_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/unordered_containers_0_2_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/utility_ht_0_0_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/vector_0_12_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/vector_th_unbox_0_2_1_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/void_0_7_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/xml_1_3_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/zlib_0_6_2_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CVWithHaskell.cabal" beforeDir="false" afterPath="$PROJECT_DIR$/CVWithHaskell.cabal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CVWithHaskell.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CVWithHaskell.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/ui/ComputerVisionWitHaskell_UI.glade" beforeDir="false" afterPath="$PROJECT_DIR$/resource/ui/ComputerVisionWitHaskell_UI.glade" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UI/Utils.hs" beforeDir="false" afterPath="$PROJECT_DIR$/src/UI/Utils.hs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stack.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/stack.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,10 +131,12 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/resource" />
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -88,12 +192,20 @@
       <option name="project" value="LOCAL" />
       <updated>1585568418395</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Initial added Intelij project">
+      <created>1585663860305</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1585663860305</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial loading of glade file and showing main windows" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial loading of glade file and showing main windows" />
+    <MESSAGE value="Initial added Intelij project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial added Intelij project" />
   </component>
   <component name="WindowStateProjectService">
     <state x="453" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585561797712">
@@ -108,38 +220,42 @@
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
     <state x="728" y="302" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/70.27.1850.1053@70.27.1850.1053" timestamp="1585566718443" />
-    <state x="477" y="127" width="1026" height="859" key="CommitChangelistDialog2" timestamp="1585568418331">
+    <state x="477" y="127" width="1026" height="859" key="CommitChangelistDialog2" timestamp="1585663860173">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state x="477" y="127" width="1026" height="859" key="CommitChangelistDialog2/70.27.1850.1053@70.27.1850.1053" timestamp="1585568418331" />
+    <state x="477" y="127" width="1026" height="859" key="CommitChangelistDialog2/70.27.1850.1053@70.27.1850.1053" timestamp="1585663860173" />
     <state x="778" y="261" width="424" height="592" key="FileChooserDialogImpl" timestamp="1585587523198">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
     <state x="778" y="261" width="424" height="592" key="FileChooserDialogImpl/70.27.1850.1053@70.27.1850.1053" timestamp="1585587523198" />
-    <state width="1804" height="275" key="GridCell.Tab.0.bottom" timestamp="1585663769396">
+    <state width="1804" height="275" key="GridCell.Tab.0.bottom" timestamp="1585688382851">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state width="1804" height="275" key="GridCell.Tab.0.bottom/70.27.1850.1053@70.27.1850.1053" timestamp="1585663769396" />
-    <state width="1804" height="275" key="GridCell.Tab.0.center" timestamp="1585663769396">
+    <state width="1804" height="275" key="GridCell.Tab.0.bottom/70.27.1850.1053@70.27.1850.1053" timestamp="1585688382851" />
+    <state width="1804" height="275" key="GridCell.Tab.0.center" timestamp="1585688382851">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state width="1804" height="275" key="GridCell.Tab.0.center/70.27.1850.1053@70.27.1850.1053" timestamp="1585663769396" />
-    <state width="1804" height="275" key="GridCell.Tab.0.left" timestamp="1585663769395">
+    <state width="1804" height="275" key="GridCell.Tab.0.center/70.27.1850.1053@70.27.1850.1053" timestamp="1585688382851" />
+    <state width="1804" height="275" key="GridCell.Tab.0.left" timestamp="1585688382850">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state width="1804" height="275" key="GridCell.Tab.0.left/70.27.1850.1053@70.27.1850.1053" timestamp="1585663769395" />
-    <state width="1804" height="275" key="GridCell.Tab.0.right" timestamp="1585663769396">
+    <state width="1804" height="275" key="GridCell.Tab.0.left/70.27.1850.1053@70.27.1850.1053" timestamp="1585688382850" />
+    <state width="1804" height="275" key="GridCell.Tab.0.right" timestamp="1585688382851">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state width="1804" height="275" key="GridCell.Tab.0.right/70.27.1850.1053@70.27.1850.1053" timestamp="1585663769396" />
+    <state width="1804" height="275" key="GridCell.Tab.0.right/70.27.1850.1053@70.27.1850.1053" timestamp="1585688382851" />
     <state x="580" y="252" width="819" height="609" key="NewModule_or_Project.wizard" timestamp="1585587534313">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
     <state x="580" y="252" width="819" height="609" key="NewModule_or_Project.wizard/70.27.1850.1053@70.27.1850.1053" timestamp="1585587534313" />
-    <state x="478" y="131" width="1024" height="852" key="SettingsEditor" timestamp="1585588016167">
+    <state x="478" y="131" width="1024" height="852" key="SettingsEditor" timestamp="1585667842943">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state x="478" y="131" width="1024" height="852" key="SettingsEditor/70.27.1850.1053@70.27.1850.1053" timestamp="1585588016167" />
+    <state x="478" y="131" width="1024" height="852" key="SettingsEditor/70.27.1850.1053@70.27.1850.1053" timestamp="1585667842943" />
+    <state x="590" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1585663862517">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state x="590" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2/70.27.1850.1053@70.27.1850.1053" timestamp="1585663862517" />
     <state x="651" y="381" key="com.intellij.ide.util.TipDialog" timestamp="1585663729322">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
@@ -148,9 +264,9 @@
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
     <state x="763" y="473" width="454" height="167" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/70.27.1850.1053@70.27.1850.1053" timestamp="1585663757991" />
-    <state x="640" y="162" width="710" height="783" key="find.popup" timestamp="1585566742329">
+    <state x="640" y="162" width="710" height="783" key="find.popup" timestamp="1585667850745">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state x="640" y="162" width="710" height="783" key="find.popup/70.27.1850.1053@70.27.1850.1053" timestamp="1585566742329" />
+    <state x="640" y="162" width="710" height="783" key="find.popup/70.27.1850.1053@70.27.1850.1053" timestamp="1585667850745" />
   </component>
 </project>

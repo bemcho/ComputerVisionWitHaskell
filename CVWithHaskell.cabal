@@ -9,31 +9,43 @@ cabal-version: >=1.24
 name:           CVWithHaskell
 version:        0.1.0.0
 
-description:    Please see the README on GitHub at <https://github.com/Github username here/CVWithHaskell#readme>
-homepage:       https://github.com/Github username here/CVWithHaskell#readme
-bug-reports:    https://github.com/Github username here/CVWithHaskell/issues
+description:    Please see the README on GitHub at <https://github.com/bemcho/CVWithHaskell#readme>
+homepage:       https://github.com/bemcho/CVWithHaskell#readme
+bug-reports:    https://github.com/bemcho/CVWithHaskell/issues
 author:         Author Emil Tomov
 maintainer:     bemcho@gmail.com
 copyright:      2019 Emil Tomov
 license:        BSD3
 license-file:   LICENSE
 build-type:     Simple
-extra-source-files:
-    README.md
-    ChangeLog.md
 
+extra-source-files:
+                   README.md
+                   ChangeLog.md
+
+Extra-Doc-Files:   resource/img/*.jpg
+                 , resource/img/*.png
+                 , resource/img/*.gif
+                 , resource/img/downloaded/*.gif
+                 , resource/img/*.svg
+                 , resource/ui/*.glade
+                 , README.md
+                   CHANGELOG.md
 source-repository head
   type: git
   location: https://github.com/bemcho/CVWithHaskell
 
 library
-  exposed-modules:    UI.Utils
+  exposed-modules:    UI.Utils,UI.OpenGLUtils
   other-modules:      Paths_CVWithHaskell
   hs-source-dirs:     src
   build-depends:
                       base >=4.7 && <5,
                       gtk3,
-                      gloss,
+                      OpenGL >= 3.0 && < 4,
+                      GLUtil,
+                      bmp,
+                      hip,
                       bytestring ,
                       time,
                       utf8-string,
@@ -52,7 +64,10 @@ executable CVWithHaskell-exe
                        CVWithHaskell,
                        base >=4.7 && <5,
                        gtk3,
-                       gloss,
+                       OpenGL >= 3.0 && < 4,
+                       GLUtil,
+                       bmp,
+                       hip,
                        bytestring ,
                        time,
                        utf8-string,
@@ -96,7 +111,10 @@ test-suite CVWithHaskell-test
                        CVWithHaskell,
                        base >=4.7 && <5,
                        gtk3,
-                       gloss,
+                       OpenGL >= 3.0 && < 4,
+                       GLUtil,
+                       bmp,
+                       hip,
                        bytestring ,
                        time,
                        utf8-string,

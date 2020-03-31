@@ -28,8 +28,7 @@ UI tool for image processing written in Haskell
 
     cd CVWithHaskell
     stack setup
-    stack install gtk2hs-buildtools
-    stack install c2hs
+    stack install 
     stack build
     
 -- Dev workflow    

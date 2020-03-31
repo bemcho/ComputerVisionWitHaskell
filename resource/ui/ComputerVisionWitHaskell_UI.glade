@@ -425,28 +425,32 @@
     <property name="can_default">True</property>
     <property name="has_default">True</property>
     <property name="receives_default">True</property>
-    <property name="title" translatable="yes">ComputerVisionWithJuliaBook</property>
-    <property name="resizable">False</property>
+    <property name="title" translatable="yes">DrawingArea</property>
     <property name="window_position">center-always</property>
+    <property name="default_width">640</property>
+    <property name="default_height">480</property>
     <property name="destroy_with_parent">True</property>
     <property name="icon_name">applications-accessories</property>
-    <property name="type_hint">toolbar</property>
-    <property name="skip_taskbar_hint">True</property>
     <property name="deletable">False</property>
     <property name="gravity">center</property>
     <property name="transient_for">main_window_toolbar</property>
     <property name="attached_to">main_window_toolbar</property>
+    <property name="has_resize_grip">True</property>
     <child>
       <placeholder/>
     </child>
     <child>
-      <object class="GtkGLArea" id="drawing_area_canvas">
+      <object class="GtkGLArea" id="drawing_area_gl">
         <property name="visible">True</property>
         <property name="app_paintable">True</property>
         <property name="can_focus">False</property>
+        <property name="halign">baseline</property>
+        <property name="valign">baseline</property>
         <property name="has_alpha">True</property>
         <property name="has_depth_buffer">True</property>
         <property name="has_stencil_buffer">True</property>
+        <property name="use_es">True</property>
+        <property name="auto_render">False</property>
       </object>
     </child>
   </object>
